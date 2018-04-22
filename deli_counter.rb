@@ -6,6 +6,6 @@ def line(katz_deli)
   end
   puts "The line is currently:#{current_line.join("")}"
   else
-  puts 
+  puts "The line is currently empty."
 end
 
