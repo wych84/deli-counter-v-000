@@ -5,5 +5,5 @@ def line(array)
   katz_deli.each_with_index {|number, name|
     array << "#{number}. #{name}"
   }
-  end 
+   puts "The line is currently: #{array.join(" ")}"
 end
