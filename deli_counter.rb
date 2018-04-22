@@ -10,7 +10,7 @@ def line(katz_deli)
     end
 end
 
-def take_a_number(katz_deli, name = "Ada")
-  new_number = katz_deli.length + 1
+def take_a_number(katz_deli, name)
+  new_number == katz_deli.length + 1
   puts "Welcome, #{name}. You are number #{new_number} in line."
 end
