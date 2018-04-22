@@ -16,5 +16,6 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(name)
-  if katz_deli == 0 
+  if katz_deli.count == 0
+    
     
