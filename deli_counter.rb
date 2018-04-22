@@ -11,4 +11,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, new_person)
+  new_number = katz_deli.length + 1
+  puts 
   
