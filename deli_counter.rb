@@ -5,5 +5,5 @@ def line(array)
     array.each_with_index {|number, name|
     current_line << "#{number}. #{name}"
   }
-   puts "The line is currently: #{array.join(" ")}"
+   puts "The line is currently: #{current_line.join(" ")}"
 end
