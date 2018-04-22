@@ -1,1 +1,2 @@
-line(ka)
+def line(katz_deli)
+  
