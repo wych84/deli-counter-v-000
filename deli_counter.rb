@@ -7,4 +7,6 @@ def line(array)
     current_line << "#{number}. #{name}"
   }
    puts "The line is currently: #{current_line.join(" ")}"
+  end
 end
+
