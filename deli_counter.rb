@@ -1,4 +1,6 @@
 def line(katz_deli)
-  string = 
+  if katz_deli.count !=0 
+    
+
 end
 
