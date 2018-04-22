@@ -1,6 +1,6 @@
 def line(array)
   current_line = []
-  if array.count == 0 
+  if array.empty? 
     puts "The line is currently empty."
   else
     array.each_with_index {|number, name|
