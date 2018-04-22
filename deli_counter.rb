@@ -12,5 +12,5 @@ end
 
 def take_a_number(katz_deli, new_person)
   new_number = katz_deli.length + 1
-  puts 
-  
+  puts "Welcome, #{new_person}. You are number #{new_number} in line."
+end
